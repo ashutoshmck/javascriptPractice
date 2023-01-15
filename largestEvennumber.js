@@ -4,6 +4,14 @@ function findLargest(arr) {
         if(element%2==0&&element>largestEvenNo)
         largestEvenNo=element;
     });
-    console.log(largestEvenNo);
+    return largestEvenNo;
 }
-findLargest([1,2,3]);
+const findLargestNo=(arr) => {
+    let largestEvenNo=0;
+    arr.forEach(element => {
+        if(element%2==0&&element>largestEvenNo)
+        largestEvenNo=element;
+    });
+    return largestEvenNo;
+}
+module.exports={findLargest,findLargestNo};

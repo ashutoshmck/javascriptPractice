@@ -1,18 +1,19 @@
 function checkDigits(num) {
-    let prevDigit=String(num)[0];
-    String(num).split('')
-    .forEach(element => {
-        if(element!=prevDigit)
-        return false;
+  let prevDigit = String(num)[0];
+  String(num)
+    .split("")
+    .forEach((element) => {
+      if (element != prevDigit) return false;
     });
-    return true;
+  return true;
 }
-const checkDigitsArrow=(num) => {
-    let prevDigit=String(num)[0];
-    String(num).split('').forEach(element => {
-        if(element!=prevDigit)
-        return false;
+const checkDigitsArrow = (num) => {
+  let prevDigit = String(num)[0];
+  String(num)
+    .split("")
+    .forEach((element) => {
+      if (element != prevDigit) return false;
     });
-    return true;
-}
-module.exports={checkDigits,checkDigitsArrow};
+  return true;
+};
+module.exports = { checkDigits, checkDigitsArrow };

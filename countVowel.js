@@ -4,7 +4,7 @@ function countVowel(str) {
   String(str)
     .split("")
     .forEach((element) => {
-      if (vowels.includes(element)) count++;
+      if (vowels.includes(element.toLowerCase())) count++;
     });
   return count;
 }

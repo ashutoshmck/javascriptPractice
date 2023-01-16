@@ -1,8 +1,8 @@
-let vowels = ["a", "e", "i", "o", "u"];
+let vowels = ['a', 'e', 'i', 'o', 'u'];
 function countVowel(str) {
   let count = 0;
   String(str)
-    .split("")
+    .split('')
     .forEach((element) => {
       if (vowels.includes(element.toLowerCase())) count++;
     });
@@ -11,7 +11,7 @@ function countVowel(str) {
 const countVowelArrow = (str) => {
   let count = 0;
   String(str)
-    .split("")
+    .split('')
     .forEach((element) => {
       if (vowels.includes(element)) count++;
     });

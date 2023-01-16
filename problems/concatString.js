@@ -1,5 +1,5 @@
 function concatString(arr) {
-  let concatenatedString = "";
+  let concatenatedString = '';
   concatenatedString = String(arr[0])
     .substring(1, String(arr[0]).length)
     .concat(String(arr[1]).substring(1, String(arr[1]).length));
@@ -7,7 +7,7 @@ function concatString(arr) {
 }
 const concatStringArrow = (arr) => {
   {
-    let concatenatedString = "";
+    let concatenatedString = '';
     concatenatedString = String(arr[0])
       .substring(1, String(arr[0]).length)
       .concat(String(arr[1]).substring(1, String(arr[1]).length));

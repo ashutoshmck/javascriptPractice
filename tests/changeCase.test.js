@@ -1,4 +1,4 @@
-const { changeCase, changeCaseArrow } = require("./changeCase");
+const { changeCase, changeCaseArrow } = require("../changeCase");
 
 describe("Change capitalisation", () => {
   test("All uppercase characters should be lowercase and vice versa", () => {

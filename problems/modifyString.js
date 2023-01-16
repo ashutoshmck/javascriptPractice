@@ -1,7 +1,7 @@
 function modifyString(str) {
-  let modifiedString = "";
+  let modifiedString = '';
   String(str)
-    .split("")
+    .split('')
     .forEach((element) => {
       modifiedString = modifiedString.concat(
         String.fromCharCode(String(element).charCodeAt(0) + 1)
@@ -10,9 +10,9 @@ function modifyString(str) {
   return modifiedString;
 }
 const modifyStringArrow = (str) => {
-  let modifiedString = "";
+  let modifiedString = '';
   String(str)
-    .split("")
+    .split('')
     .forEach((element) => {
       modifiedString = modifiedString.concat(
         String.fromCharCode(String(element).charCodeAt(0) + 1)

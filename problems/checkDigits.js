@@ -1,7 +1,7 @@
 function checkDigits(num) {
   let prevDigit = String(num)[0];
   String(num)
-    .split("")
+    .split('')
     .forEach((element) => {
       if (element != prevDigit) return false;
     });
@@ -10,7 +10,7 @@ function checkDigits(num) {
 const checkDigitsArrow = (num) => {
   let prevDigit = String(num)[0];
   String(num)
-    .split("")
+    .split('')
     .forEach((element) => {
       if (element != prevDigit) return false;
     });

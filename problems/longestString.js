@@ -1,16 +1,21 @@
-function longestString(str) {
-  let maxLengthString = "";
+function findLongestString(str) {
+  let maxLengthString = '';
   str.forEach((element) => {
-    if (element.length > maxLengthString.length) maxLengthString = element;
+    maxLengthString =
+      element.length > maxLengthString.length ? element : maxLengthString;
   });
   return maxLengthString;
 }
-const longestStringArrow = (str) => {
-  let maxLengthString = "";
+const findLongestStringArrow = (str) => {
+  let maxLengthString = '';
   str.forEach((element) => {
-    if (element.length > maxLengthString.length) maxLengthString = element;
+    maxLengthString =
+      element.length > maxLengthString.length ? element : maxLengthString;
   });
   return maxLengthString;
 };
-
-module.exports = { longestString, longestStringArrow };
+//TODO: incorporate test case where if length of two strings is same, then lexicographically smaller string to be taken
+module.exports = {
+  longestString: findLongestString,
+  longestStringArrow: findLongestStringArrow,
+};

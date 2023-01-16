@@ -1,7 +1,7 @@
 function changeCase(str) {
-  let changedString = "";
+  let changedString = '';
   String(str)
-    .split("")
+    .split('')
     .forEach((element) => {
       if (element.toLowerCase() === element) element = element.toUpperCase();
       else element = element.toLowerCase();
@@ -12,9 +12,9 @@ function changeCase(str) {
 }
 
 const changeCaseArrow = (str) => {
-  let changedString = "";
+  let changedString = '';
   String(str)
-    .split("")
+    .split('')
     .forEach((element) => {
       if (element.toLowerCase() === element) element = element.toUpperCase();
       else element = element.toLowerCase();

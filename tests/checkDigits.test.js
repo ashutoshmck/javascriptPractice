@@ -1,4 +1,4 @@
-const checkDigits = require("./checkDigits");
+const checkDigits = require("../problems//checkDigits");
 
 describe("Check if all digits are same", () => {
   test("All digits in 55 should be same", () => {

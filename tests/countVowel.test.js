@@ -1,4 +1,4 @@
-const { countVowel, countVowelArrow } = require("./countVowel");
+const { countVowel, countVowelArrow } = require("../problems//countVowel");
 
 describe("Count number of vowels in string", () => {
   test("Count number of vowels in string", () => {

@@ -1,4 +1,7 @@
-const { longestString, longestStringArrow } = require("./longestString");
+const {
+  longestString,
+  longestStringArrow,
+} = require("../problems//longestString");
 
 describe("Find longest string in an array of strings", () => {
   test("Longest string should be academy", () => {

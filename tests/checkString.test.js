@@ -1,4 +1,4 @@
-const { checkString, checkStringArrow } = require("./checkString");
+const { checkString, checkStringArrow } = require("../problems//checkString");
 
 describe("Check if string ends with 'Scripts' ", () => {
   test("Check if string ends with 'Scripts' ", () => {

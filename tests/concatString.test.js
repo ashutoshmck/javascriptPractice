@@ -1,4 +1,7 @@
-const { concatString, concatStringArrow } = require("./concatString");
+const {
+  concatString,
+  concatStringArrow,
+} = require("../problems//concatString");
 
 describe("Concatenate string except first character", () => {
   test("Concatenate string except first character", () => {

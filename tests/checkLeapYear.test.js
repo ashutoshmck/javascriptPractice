@@ -1,4 +1,7 @@
-const { checkLeapYear, checkLeapYearArrow } = require("./checkLeapYear");
+const {
+  checkLeapYear,
+  checkLeapYearArrow,
+} = require("../problems//checkLeapYear");
 
 describe("Check if leap year", () => {
   test("Check if leap year", () => {

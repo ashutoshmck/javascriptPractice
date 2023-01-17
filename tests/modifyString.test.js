@@ -1,4 +1,7 @@
-const { modifyString, modifyStringArrow } = require("./modifyString");
+const {
+  modifyString,
+  modifyStringArrow,
+} = require("../problems//modifyString");
 
 describe("Modify string", () => {
   test("replace every character in a given string with the character following it in the alphabet", () => {
